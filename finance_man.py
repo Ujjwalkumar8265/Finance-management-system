@@ -118,7 +118,7 @@ class fina():
         return f"#{r:02x}{g:02x}{b:02x}" 
 
     def dbconnectfun(self):
-        self.con=pymysql.connect(host="localhost",user="root",passwd="bhudave911@",database="rec")
+        self.con=pymysql.connect(host="localhost",user="root",passwd="ENTER YOUR SQL WORKBENCH PASSWORD",database="rec")
         self.cur= self.con.cursor()
 
     def expfun(self):
@@ -175,4 +175,5 @@ class fina():
 
 root=tk.Tk()
 obj = fina(root)
+
 root.mainloop()

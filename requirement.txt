@@ -1,0 +1,10 @@
+pip install matplotlib
+pip install numpy
+pip install tkinter
+pip install pymysql
+
+
+create a database on mysql 
+hostname=root
+password=enter your password of sql workbench
+database=your data base name
